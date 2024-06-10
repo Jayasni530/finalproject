@@ -1,0 +1,30 @@
+/* Choreographers Section */
+#instructors .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#instructors .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#instructors .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#instructors .card-body {
+    text-align: center;
+}
+
+#instructors .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#instructors .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}

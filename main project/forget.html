@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS (Optional) -->
+    <style>
+        body {
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbFOwnsWZ6qE0Sf6uS3H7ctO-1GbCt8meLKpZ4hrlUGwYlrMmSizmJZwVi7HjcBJK8ELo&usqp=CAU");
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+        }
+        .card {
+            margin-top: 100px;
+            display: flex;
+          
+           justify-content: space-between;
+           font-size: 14px;
+           margin:  0 15px;
+           padding-left: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card mt-5">
+                    <div class="card-header">
+                        <h3>Forgot Password</h3>
+                    </div>
+                    <div class="card-body">
+                        <form id="forgot-password-form">
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Inline JavaScript for Form Handling -->
+    <script>
+        document.getElementById('forgot-password-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const email = document.getElementById('email').value;
+            console.log('Forgot Password Request for:', email);
+
+            // Simulate form submission
+            alert('If this email is registered, you will receive a password reset link.');
+        });
+    </script>
+</body>
+</html>

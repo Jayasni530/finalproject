@@ -1,0 +1,64 @@
+/* General Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Background Video */
+.video-header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.video-header .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.video-header .content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.video-header .content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.video-header .content p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Classes Section */
+#classes .card {
+    border: none
+}

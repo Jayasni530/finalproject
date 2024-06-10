@@ -1,0 +1,88 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color:purple;
+  background-image: url('c:\Users\SANJAY\Downloads\background.jpg');
+  background-size: cover;
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Navigation Styles */
+.navbar {
+  background-color: #333;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #e2e2f0;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #c7db0e;
+}
+
+/* Hero Section Styles */
+.hero {
+ 
+  color: #b33272;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+/* About, Classes, Instructors, Contact Section Styles */
+.section-title {
+  margin-bottom: 30px;
+}
+
+.section-content {
+  margin-bottom: 50px;
+}
+
+/* Classes Section Styles */
+.class-item {
+  background-color: #f1f4f7;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.class-item img{
+    border-radius:40px;
+    max-width:100%;
+}
+
+/* Instructors Section Styles */
+.instructor {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}

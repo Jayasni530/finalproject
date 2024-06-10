@@ -1,0 +1,38 @@
+/* Custom Styles */
+.hero {
+    background-image: url('https://img.freepik.com/premium-photo/soft-vintage-gradient-blur-background-with-pastel-colored-well-use-as-studio-room_762785-150785.jpg?w=740');
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 100%;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .about,
+  .classes,
+  .contact {
+    padding: 80px 0;
+    text-align: center;
+    background-color: blanchedalmond;
+  }
+  
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+  }
+  
+  
+  
+
+  
